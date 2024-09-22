@@ -1,10 +1,13 @@
 import Trectutor from "public/images/trectutor.png";
 import Trectutor2 from "public/images/trectutor2.png";
 import Simonsays from "public/images/simonsays.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import Simonsays1 from "public/images/simonsays1.png";
+import Mentorios from "public/images/mentorios.png";
+import Mentorios2 from "public/images/mentorios2.png";
+import Mentorios3 from "public/images/mentorios3.png";
+import Music from "public/images/music.png";
+import Music1 from "public/images/music1.png";
+
 
 export const products = [
   {
@@ -33,7 +36,7 @@ export const products = [
     description:
     "This project is a web-based implementation of the classic Simon Says memory game," ,
     thumbnail: Simonsays,
-    images: [Simonsays, Simonsays],
+    images: [Simonsays1, Simonsays],
     stack: ["JavaScript"],
     slug: "algochurn",
     content: (
@@ -52,8 +55,8 @@ export const products = [
     title: "Mentorios",
     description:
       "Mentorios is an AI-powered mock interview preparation website designed to help users practice and improve their interview skills.",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail:Mentorios ,
+    images: [Mentorios2, Mentorios3],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "moonbeam",
     content: (
@@ -72,8 +75,8 @@ export const products = [
     title: "Music App",
     description:
       "A music app designed with a clean and responsive frontend offering a visually engaging and user-friendly interface for browsing and playing songs.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: Music,
+    images: [Music,Music1],
     stack: ["HTML", "CSS"],
     slug: "tailwindmasterkit",
     content: (
